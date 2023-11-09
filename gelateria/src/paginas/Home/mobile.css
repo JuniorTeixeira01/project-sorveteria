@@ -1,0 +1,127 @@
+@media (min-width: 325px) and (max-width: 425px){
+    .secao-banner_imagem{
+        position: absolute;
+        height: 400px;
+    }
+    .secao-banner_container{
+        position: absolute;
+        width: 300px;
+    }
+    .secao-banner_container h1{
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+    }
+    .secao-sobre,
+    .secao-sabores{
+        display: flex;
+        flex-direction: column;
+    }
+    .secao-sobre_imagem,
+    .secao-eventos_imagem,
+    .secao-sabores_imagem{
+        width: 100%;
+        height: auto;
+    }
+    .secao-sobre_container,
+    .secao-eventos_container,
+    .secao-sabores_container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secao-sobre_container h2,
+    .secao-eventos_container h2,
+    .secao-sabores_container h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .secao-sabores_container span,
+    .secao-eventos_container span,
+    .secao-sobre_container span{
+        font-size: 15px;
+    }
+    .secao-sobre_container p,
+    .secao-eventos_container p,
+    .secao-sabores_container p{
+        width: 450px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    .secao-eventos{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .secao-banner_imagem{
+        height: auto;
+    }
+    .secao-banner_container{
+        width: 600px;
+    }
+    .secao-banner_container h1{
+        font-size: 38px;
+        text-align: center;
+    }
+    .secao-sabores{
+        display: flex;
+        flex-direction: column;
+    }
+    .secao-sabores_imagem{
+        width: 100%;
+        height: auto;
+    }
+    .secao-sabores_container{
+        width: 100%;
+    }
+    .secao-sabores_container h2{
+        font-size: 38px;
+    }
+    .secao-sabores_container p{
+        width: 500px;
+        font-size: 16px;
+    }
+    .secao-eventos{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .secao-eventos_imagem{
+        width: 100%;
+        height: auto;
+    }
+    .secao-eventos_container{
+        width: 100%;
+    }
+    .secao-eventos_container h2{
+        font-size: 38px;
+    }
+    .secao-eventos_container p{
+        width: 500px;
+        font-size: 16px;
+    }
+    .secao-sobre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .secao-sobre_imagem{
+        width: 100%;
+        height: auto;
+    }
+    .secao-sobre_container{
+        width: 100%;
+    }
+    .secao-sobre_container h2{
+        font-size: 38px;
+    }
+    .secao-sobre_container p{
+        width: 500px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,30 @@
+@media (min-width: 325px) and (max-width:425px){
+    .container-banner img{
+        width: 100%;
+        height: 400px;
+    }
+    .container-banner h1{
+        position: absolute;
+        font-size: 28px;
+    }
+    .cards{
+        width: 300px;
+    }
+}
+    @media (min-width: 425px) and (max-width: 768px){
+        .container-banner img{
+            height: 600px;
+        }
+        .container-banner h1{
+            font-size: 48px;
+        }
+        .cards{
+            width: 500px;
+            height: 350px;
+        }
+        .cards p{
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    }
